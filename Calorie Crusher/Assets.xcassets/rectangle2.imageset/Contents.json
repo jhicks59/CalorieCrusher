@@ -1,10 +1,7 @@
 {
   "images" : [
     {
-
-      
-      "filename" : "clouds.png",
-
+      "filename" : "rectangle2.png",
       "idiom" : "universal",
       "scale" : "1x"
     },

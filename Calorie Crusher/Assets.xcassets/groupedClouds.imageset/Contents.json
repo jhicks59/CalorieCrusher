@@ -1,10 +1,7 @@
 {
   "images" : [
     {
-
-      
-      "filename" : "clouds.png",
-
+      "filename" : "groupedClouds.png",
       "idiom" : "universal",
       "scale" : "1x"
     },

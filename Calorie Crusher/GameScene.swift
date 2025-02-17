@@ -13,6 +13,7 @@ import UIKit
 
 class GameScene: SKScene, SKPhysicsContactDelegate {
     
+
     var isTouchEnabled: Bool = false
     var isInfoScreenVisible = false
     
@@ -50,11 +51,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     override init(size: CGSize) {
         let maxAspectRatio: CGFloat = 16.0 / 6.0
+
         let playableWidth = size.height / maxAspectRatio
         let margin = (size.width - playableWidth) / 2
         gameArea = CGRect(x: margin, y: 0, width: playableWidth, height: size.height)
         
         super.init(size: size)
+
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -265,5 +268,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     func moveRight() {
         players[currentPlayyerIndex].position.x += 50
+
     }
 }
